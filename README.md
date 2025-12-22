@@ -1,2 +1,2 @@
 # Js-learn
-A test to learn JavaScript
+A code repo to learn JavaScript
