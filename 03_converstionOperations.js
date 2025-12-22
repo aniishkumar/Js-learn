@@ -3,4 +3,7 @@
 // console.log(NumbooleanIsLoggedIn)
 let somenNumber=4324
 let numberInString=String(somenNumber)
-console.log(typeof numberInString)
+const id = Symbol('12321')
+const anotherId = Symbol('12321')
+let array = ["anish","kumar"]
+console.log(typeof array)
