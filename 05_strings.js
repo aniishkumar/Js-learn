@@ -1,0 +1,5 @@
+const gameName = new String("anish")
+console.log(gameName.__proto__)
+console.log(gameName.charAt(2))
+const anotherString = gameName.slice(-3,-2)
+console.log(anotherString)
