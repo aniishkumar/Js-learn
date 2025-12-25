@@ -1,4 +1,6 @@
-const tinderUser={}
+//const tinderUser = new Object();
+
+// const tinderUser={}
 // tinderUser.id = "123abd"
 // tinderUser.name="sam"
 // tinderUser.isLoggedIn = false
@@ -34,3 +36,19 @@ const tinderUser={}
 
 // console.log(users[0].email)
 // console.log(Object.keys(tinderUser))
+
+//console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+const course={
+    courseName: "js ",
+    price :" 99",
+    courseInstructor: "anish"
+}
+
+const {courseInstructor:instructor} = course
+
+const navbar = ({company})=>{
+
+}
+
+navbar(company="hitesh")
