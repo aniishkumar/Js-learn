@@ -23,4 +23,4 @@ const addtwo = ( one ,  two )=>{
     return one+two
 }
 
-console.log(addtwo(1,2))
+const addthree =(one,two,three)=>(one + two + three)
