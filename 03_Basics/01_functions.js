@@ -26,4 +26,16 @@ function calculateCartPrice(...nums){
     return nums
 }
 
-console.log(calculateCartPrice(1,2,3,4))
+//console.log(calculateCartPrice(1,2,3,4))
+
+function one(){
+    const username = "anish"
+
+    function two(){
+        const website = "youtube"
+        console.log(username)
+    }
+    two()
+}
+
+one()
