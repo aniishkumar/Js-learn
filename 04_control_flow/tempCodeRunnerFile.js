@@ -1,4 +1,3 @@
-for (const [key, value] of myObject) {
-    console.log(key, ':-', value);
-    
-}
+books.forEach((item)=>{
+//     console.log(item.title)
+// })
