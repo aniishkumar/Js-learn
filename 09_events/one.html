@@ -13,22 +13,48 @@
             <img src="https://picsum.photos/id/1015/300/200" alt="nature">
         </li>
 
-        <li>
+        <li id="dog">
             <img src="https://picsum.photos/id/1025/300/200" alt="dog">
         </li>
 
-        <li>
+        <li id="mountain">
             <img src="https://picsum.photos/id/1035/300/200" alt="mountain">
         </li>
 
-        <li>
+        <li id="river">
             <img src="https://picsum.photos/id/1043/300/200" alt="river">
         </li>
 
-        <li>
-            <img src="https://picsum.photos/id/1062/300/200" alt="beach">
+        <li id="burrito dog">
+            <img src="https://picsum.photos/id/1062/300/200" alt="burrito dog">
         </li>
         </ul>
     </div>
 </body>
+<script>
+    // document.getElementById('dog').onclick = function(){
+    //         alert("dog")
+    // }
+
+    // document.getElementById("dog").onclick=function(){
+    //     alert("dog clicked");
+    // }
+
+
+    
+    // document.getElementById('dog').addEventListener("click",function(e){
+    //     console.log("dog clicked");
+    // },false);
+    // document.getElementById("mountain").addEventListener("click",function(e){
+    //     console.log("clicked inside the ul");
+    // },false);
+
+    document.querySelector("#image").addEventListener("click",function(e){
+        console.log(e.target.parentNode);
+        let removeIt= e.target.parentNode;
+        removeIt.remove();
+
+    },false)
+
+</script>
 </html>
