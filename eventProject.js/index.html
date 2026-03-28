@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Anish's smol project</h1>
+    <button id ="stop">Stop</button>
+    <button id ="start">start</button>
+</body>
+<script>
+    setTimeout(function(){
+        console.log("ani")
+    },2000)
+    const anish = ()=>{
+       document.querySelector("h1").textContent="we out here winning";
+    }
+    const hehe=()=>{
+        document.querySelector("h1").textContent="hehe"
+    }
+    const changeMe= setTimeout(anish , 2000);
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearTimeout(changeMe);
+        console.log("stopped");
+    });
+
+    document.querySelector("#start").addEventListener("click",function(){
+        setTimeout(hehe,2000);
+        console.log("started hehe");
+    })
+</script>
+</html>
